@@ -1,0 +1,11 @@
+[{
+  "modid": "ntmiq",
+  "name": "NTM IQ Expansion",
+  "description": "The new content of NTM: IQ Edition (1.7.10), ported to 1.12.2 as an add-on for HBM's Nuclear Tech Mod Community Edition.\n\nOriginal IQ Edition content and art: irislgtm, tam69, Siepert123, NotMega, purpl3xity, WoodEXPLOSIVE, Alexmaster75, megamiku and the IQ team (GPL-3.0). 1.12.2 port: crunkazcanbe.",
+  "version": "${version}",
+  "mcversion": "1.12.2",
+  "url": "https://github.com/TrifectumSoftware/Hbm-s-Nuclear-Tech-IQ-Edition",
+  "authorList": ["IQ team (original)", "crunkazcanbe (1.12.2 port)"],
+  "credits": "HBM and the NTM CE team for Nuclear Tech",
+  "dependencies": ["hbm"]
+}]
