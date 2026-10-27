@@ -26,9 +26,29 @@ import org.apache.logging.log4j.Logger;
 public class NtmIq {
     public static final Logger LOG = LogManager.getLogger(Tags.MODNAME);
 
+    public NtmIq() {
+        com.crunkazcanbe.ntmiq.fluids.IqFluids.register();       // F24: must hook CE's Fluids.init(), which runs in CE's preInit
+    }
+
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent e) {
         IqContent.create();
+        com.crunkazcanbe.ntmiq.geology.IqGeology.preInit(e);     // F22: resource stone layers + soldering alloy
+        com.crunkazcanbe.ntmiq.pipeline.IqPipeline.preInit(e);   // F17: industrial pipe anchor + pressurizer
+        com.crunkazcanbe.ntmiq.railgun.IqRailgun.preInit(e);     // F08: railgun turret "Louis" + sabots
+        com.crunkazcanbe.ntmiq.conveyor.IqConveyor.preInit(e);   // F16: conveyor combinator + spraypainter
+        com.crunkazcanbe.ntmiq.fluids.IqChem.register();         // F24: IQ chem plant / mixer / electrolyser recipes
+        com.crunkazcanbe.ntmiq.drones.IqDrones.preInit(e);       // F09: quarry / spelunking / demolisher drones
+        com.crunkazcanbe.ntmiq.growth.IqGrowth.preInit(e);       // F13: growth chamber, budding salt/certus, salt geodes
+        com.crunkazcanbe.ntmiq.magsep.IqMagSep.preInit(e);       // F11: magnetic separator + magnetic discs
+        com.crunkazcanbe.ntmiq.blood.IqBlood.preInit(e);         // F01: bloodstream capability, drug fluids, syringes, auto drip, blood monitor
+        com.crunkazcanbe.ntmiq.contagion.IqContagion.preInit(e); // F02: diseases, genomes, symptoms, Dial-A-Dose, contagion gloves (needs F01)
+        com.crunkazcanbe.ntmiq.contagion.ContagionLoot.register();
+        com.crunkazcanbe.ntmiq.sludge.IqSludge.preInit(e);       // F12: mass centrifuge (sludge processor)
+        com.crunkazcanbe.ntmiq.magnetic.IqMagnetic.preInit(e);   // F10: magnetic strip / crafter / stocker
+        com.crunkazcanbe.ntmiq.foam.IqFoam.preInit(e);           // F19: construction foam + quikrete
+        com.crunkazcanbe.ntmiq.detail.IqDetail.preInit();        // F20: detail decals
+        com.crunkazcanbe.ntmiq.husks.IqHusks.preInit(e);         // F03: human parts, cloner, husks, neuralysers, DIA-1000 (needs F01)
         MinecraftForge.EVENT_BUS.register(new ItemIndustrialPipette.Handler());
         MinecraftForge.EVENT_BUS.register(new IqRecipes.RawOreDrops());
         LOG.info("NTM IQ Expansion: {} blocks, {} items", IqContent.BLOCKS.size(), IqContent.ITEMS.size());

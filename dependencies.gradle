@@ -1,0 +1,5 @@
+// NTM IQ Expansion compiles against the exact HBM NTM CE build in the pack (deobfuscated by RFG).
+dependencies {
+    compileOnly('appeng:ae2-uel:v0.56.7') { transitive false } // CE's classes reference AE2
+    implementation rfg.deobf(files("libs/NTM-CE-1.12.2-2.5.0.5.jar"))
+}

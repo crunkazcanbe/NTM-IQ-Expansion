@@ -1,0 +1,1 @@
+{"parent": "item/generated", "textures": {"layer0": "ntmiq:items/auto_drip_empty"}, "overrides": [{"predicate": {"ntmiq:fill": 0.5}, "model": "ntmiq:item/auto_drip_filled"}, {"predicate": {"ntmiq:fill": 1}, "model": "ntmiq:item/auto_drip_full"}]}

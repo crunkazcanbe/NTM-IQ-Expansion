@@ -1,0 +1,16 @@
+// Add any additional repositories for your dependencies here
+
+repositories {
+    maven {
+        name "Warfactory Releases"
+        url "https://repo.warfactory.co/releases"
+    }
+    maven {
+        name "Warfactory Snapshots"
+        url "https://repo.warfactory.co/snapshots"
+    }
+    maven {
+        name "thiakil"
+        url "https://maven.thiakil.com"
+    }
+}

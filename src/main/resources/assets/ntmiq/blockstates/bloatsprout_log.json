@@ -1,0 +1,4 @@
+{"variants": {
+  "axis=y": {"model": "ntmiq:bloatsprout_log"},
+  "axis=z": {"model": "ntmiq:bloatsprout_log", "x": 90},
+  "axis=x": {"model": "ntmiq:bloatsprout_log", "x": 90, "y": 90}}}

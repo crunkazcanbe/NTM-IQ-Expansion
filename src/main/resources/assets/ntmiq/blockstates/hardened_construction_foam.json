@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "normal": {
+   "model": "ntmiq:hardened_construction_foam"
+  },
+  "inventory": {
+   "model": "ntmiq:hardened_construction_foam"
+  }
+ }
+}

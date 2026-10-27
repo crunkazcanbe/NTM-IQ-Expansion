@@ -1,0 +1,1 @@
+{"parent": "item/generated", "textures": {"layer0": "ntmiq:items/medical_syringe"}, "overrides": [{"predicate": {"ntmiq:filled": 1}, "model": "ntmiq:item/medical_syringe_filled"}]}

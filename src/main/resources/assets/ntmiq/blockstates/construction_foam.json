@@ -1,0 +1,55 @@
+{
+ "variants": {
+  "type=0": {
+   "model": "ntmiq:construction_foam"
+  },
+  "type=1": {
+   "model": "ntmiq:construction_foam"
+  },
+  "type=2": {
+   "model": "ntmiq:construction_foam"
+  },
+  "type=3": {
+   "model": "ntmiq:construction_foam"
+  },
+  "type=4": {
+   "model": "ntmiq:construction_foam"
+  },
+  "type=5": {
+   "model": "ntmiq:construction_foam"
+  },
+  "type=6": {
+   "model": "ntmiq:construction_foam"
+  },
+  "type=7": {
+   "model": "ntmiq:construction_foam"
+  },
+  "type=8": {
+   "model": "ntmiq:construction_foam"
+  },
+  "type=9": {
+   "model": "ntmiq:construction_foam"
+  },
+  "type=10": {
+   "model": "ntmiq:construction_foam"
+  },
+  "type=11": {
+   "model": "ntmiq:construction_foam"
+  },
+  "type=12": {
+   "model": "ntmiq:construction_foam"
+  },
+  "type=13": {
+   "model": "ntmiq:construction_foam"
+  },
+  "type=14": {
+   "model": "ntmiq:construction_foam"
+  },
+  "type=15": {
+   "model": "ntmiq:construction_foam"
+  },
+  "inventory": {
+   "model": "ntmiq:construction_foam"
+  }
+ }
+}

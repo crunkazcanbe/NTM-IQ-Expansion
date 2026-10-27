@@ -1,0 +1,17 @@
+{
+  "player.vomit": {"category": "player", "sounds": [{"name": "ntmiq:player/vomit", "stream": false}]},
+  "player.sneeze": {"category": "player", "sounds": [{"name": "ntmiq:player/sneeze", "stream": false}]},
+  "block.nukeCharge": {"category": "block", "sounds": [{"name": "ntmiq:block/nukeCharge", "stream": false}]},
+  "block.buttonIncorrect": {"category": "block", "sounds": [{"name": "ntmiq:block/buttonIncorrect", "stream": false}]},
+  "block.spraypaint": {"category": "block", "sounds": [{"name": "ntmiq:block/spraypaint", "stream": false}]},
+  "block.crystalBlockPlace": {"category": "block", "sounds": [{"name": "ntmiq:block/crystalBlockPlace1", "stream": false}, {"name": "ntmiq:block/crystalBlockPlace2", "stream": false}, {"name": "ntmiq:block/crystalBlockPlace3", "stream": false}, {"name": "ntmiq:block/crystalBlockPlace4", "stream": false}]},
+  "block.crystalBlockBreak": {"category": "block", "sounds": [{"name": "ntmiq:block/crystalBlockBreak1", "stream": false}, {"name": "ntmiq:block/crystalBlockBreak2", "stream": false}, {"name": "ntmiq:block/crystalBlockBreak3", "stream": false}, {"name": "ntmiq:block/crystalBlockBreak4", "stream": false}]},
+  "step.crystalBlock": {"category": "block", "sounds": [{"name": "ntmiq:block/crystalBlockStep1", "stream": false}, {"name": "ntmiq:block/crystalBlockStep2", "stream": false}, {"name": "ntmiq:block/crystalBlockStep3", "stream": false}, {"name": "ntmiq:block/crystalBlockStep4", "stream": false}, {"name": "ntmiq:block/crystalBlockStep5", "stream": false}, {"name": "ntmiq:block/crystalBlockStep6", "stream": false}, {"name": "ntmiq:block/crystalBlockStep7", "stream": false}, {"name": "ntmiq:block/crystalBlockStep8", "stream": false}, {"name": "ntmiq:block/crystalBlockStep9", "stream": false}, {"name": "ntmiq:block/crystalBlockStep10", "stream": false}, {"name": "ntmiq:block/crystalBlockStep11", "stream": false}, {"name": "ntmiq:block/crystalBlockStep12", "stream": false}, {"name": "ntmiq:block/crystalBlockStep13", "stream": false}, {"name": "ntmiq:block/crystalBlockStep14", "stream": false}]},
+  "block.crystalBlockResonate": {"category": "block", "sounds": [{"name": "ntmiq:block/crystalBlockResonate1", "stream": false}, {"name": "ntmiq:block/crystalBlockResonate2", "stream": false}, {"name": "ntmiq:block/crystalBlockResonate3", "stream": false}, {"name": "ntmiq:block/crystalBlockResonate4", "stream": false}]},
+  "block.crystalBlockShimmer": {"category": "block", "sounds": [{"name": "ntmiq:block/crystalBlockShimmer", "stream": false}]},
+  "block.growthChamberOperation": {"category": "block", "sounds": [{"name": "ntmiq:block/growthChamberOperation", "stream": false}]},
+  "machine.magnetic_open": {"category": "block", "sounds": [{"name": "ntmiq:machine/magnetic_open", "stream": false}]},
+  "machine.magnetic_loop": {"category": "block", "sounds": [{"name": "ntmiq:machine/magnetic_loop", "stream": false}]},
+  "machine.magnetic_close": {"category": "block", "sounds": [{"name": "ntmiq:machine/magnetic_close", "stream": false}]},
+  "item.magnetic": {"category": "player", "sounds": [{"name": "ntmiq:magnetic", "stream": false}]}
+}
